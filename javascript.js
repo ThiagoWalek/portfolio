@@ -40,7 +40,7 @@ function menu() {
         } else {
             console.log("Entrou if 2");
             items1[i].style.display = 'block';
-            items1[i].style.width = '100%';
+            items1[i].style.width = '98vw';
             nav_container.style.flexFlow = 'column nowrap';
             header_container.style.justifyContent = 'flex-start';
             header_container.style.flexFlow = 'column nowrap';

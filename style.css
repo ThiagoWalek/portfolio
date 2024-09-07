@@ -126,21 +126,26 @@ div.hards {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-evenly;
+    align-items: center;
     width: 50vw;
 }
 
 div.hards > div, p {
     margin: 10px 0px;
+    text-align: center;
 }
 
 div.softs {
-    width: 50vw;
-    margin-left: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
     width: 50vw;
 }
 
 div.softs > div, p {
     margin: 10px 0px;
+    text-align: center;
 }
 
 section#inicio {
@@ -185,6 +190,7 @@ section#skill {
     background-color: var(--azul_escuro);
     padding: 28px;
     color: #ECF0F1;
+    text-align: center;
 }
 
 section#skill > .softs .hards > h1{
@@ -196,12 +202,17 @@ section#projetos {
     flex-flow: column nowrap;
     background-color: var(--cinza_medio);
     padding: 30px 0px;
+    text-align: center;
 }
 
 section#projetos > h1 {
     color: var(--azul_claro);
     text-shadow: 0px 0px 2px black;
     font-size: 2em;
+}
+
+section#projetos > .items2 > img {
+
 }
 
 
