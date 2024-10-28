@@ -211,9 +211,6 @@ section#projetos > h1 {
     font-size: 2em;
 }
 
-section#projetos > .items2 > img {
-
-}
 
 
 iframe {
@@ -280,4 +277,40 @@ footer > span {
     .items1 {
         display: block;
     }
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.iframe-carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.items2 {
+    min-width: 100%; /* Mostra apenas um projeto por vez */
+    box-sizing: border-box;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 295%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
 }

@@ -11,17 +11,17 @@
         <header class="container">
             <nav class="container">
                 <img src="imgs/Menu_icon_2_icon-icons.com_71856.png" alt="menu" onclick="menu()">
-                <button class="items1"><a href="#conatiner_principal">Sobre</a></button>
-                <button class="items1"><a href="#projetos">Projetos</a></button>
-                <button class="items1"><a href="#contato">Contato</a></button>
+                <a href="#container_principal"><button class="items1">Sobre</button></a>
+                <a href="#projetos"><button class="items1">Projetos</button></a>
+                <a href="#contato"><button class="items1">Contato</button></a>
             </nav>
         </header>
         <div id="container_principal">
             <section id="inicio">
                 <img src="imgs/eu1.jpg" alt="Thiago-foto">
-                    <p id="res"></p>
-                    <h2>Me chamo Thiago Walek</h2>
-                    <p>Sou Desenvolvedor Web</p>
+                <p id="res"></p>
+                <h2>Me chamo Thiago Walek</h2>
+                <p>Sou Desenvolvedor Web</p>
             </section>
             <section id="sobre">
                 <h1>Sobre</h1>
@@ -38,66 +38,75 @@
                 <div class="logos"><img class="logo" src="imgs/javascript_logo.png" alt="javascript"></div>
                 <p>JavaScript é uma linguagem de programação usada para carregar automações dentro dos sites.</p>
                 <div class="logos"><img class="logo" src="imgs/c++_logo.png" alt="c++"></div>
-                <p>C++ uma linguagem de programação de alto nível.</p>
+                <p>C++ é uma linguagem de programação de alto nível.</p>
                 <div class="logos"><img class="logo" src="imgs/python_logo.png" alt="python"></div>
-                <p>Python uma linguagem de programação utilizado aplamente na área de IAs, porem também bem flexível.</p>
+                <p>Python é uma linguagem de programação utilizada amplamente na área de IAs, mas também é bem flexível.</p>
             </div>
-            <!-- divisao -->
             <div class="softs">
                 <h1>Soft Skills</h1>
                 <div class="logos"><img class="logo" src="imgs/group-profile-users_icon-icons.com_73540.png" alt="trabalho_em_equipe"></div>
                 <p>Trabalho em Equipe.</p>
                 <div class="logos"><img class="logo" src="imgs/recovery_recuperation_convalescence_winner_resilience_icon_145574.png" alt="resiliência"></div>
                 <p>Resiliência.</p>
-                <div class="logos"><img class="logo" src="" alt=""></div>
-                <p></p>
-                <div class="logos"><img class="logo" src="" alt=""></div>
-                <p></p>
-                <div class="logos"><img class="logo" src="" alt=""></div>
-                <p></p>
             </div>
         </section>
-        <section id="projetos"><!-- esse será o container -->
+        <section id="projetos">
             <h1 style="text-align: center;">Projetos</h1>
-                <div class="items2">
-                    <h1><a href="https://thiagowalek.github.io/projeto-lampada/">Projeto lampada 1</a></h1>
-                    <img src="imgs/projeto_lampada1_t.JPG" alt="projeto-lampada-1">
-                    <iframe src="https://thiagowalek.github.io/projeto-lampada/" frameborder="0"></iframe>
-                    <p>Um projeto que consiste no acender/apagar de uma lampada bem enfeitada, e com efeito sonoro.</p>
+            <button class="carousel-button prev-button" onclick="scrollCarousel(-1)">&#10094;</button>
+            <div class="carousel-container">
+                <div class="iframe-carousel">
+                    <div class="items2">
+                        <h1><a href="https://thiagowalek.github.io/projeto-lampada/">Projeto lâmpada 1</a></h1>
+                        <img src="imgs/projeto_lampada1_t.JPG" alt="projeto-lampada-1">
+                        <iframe src="https://thiagowalek.github.io/projeto-lampada/" frameborder="0"></iframe>
+                        <p>Um projeto que consiste no acender/apagar de uma lâmpada bem enfeitada, com efeito sonoro.</p>
+                    </div>
+                    <div class="items2">
+                        <h1><a href="https://thiagowalek.github.io/projeto_lampada/">Projeto lâmpada 2</a></h1>
+                        <img src="imgs/projeto_lampada2_t.JPG" alt="projeto-lampada-2">
+                        <iframe src="https://thiagowalek.github.io/projeto_lampada/" frameborder="0"></iframe>
+                        <p>Esse projeto é um teste de inputs diferentes sobre uma lâmpada.</p>
+                    </div>
+                    <!-- <div class="items2">
+                        <h1>Projeto Cordel</h1>
+                        <img src="imgs/" alt="projeto-cordel">
+                    </div> -->
+                    <div class="items2">
+                        <h1><a href="https://thiagowalek.github.io/projeto-android/">Projeto Android</a></h1>
+                        <img src="imgs/android_t.JPG" alt="projeto-android">
+                        <iframe src="https://thiagowalek.github.io/projeto-android/" frameborder="0"></iframe>
+                    </div>
+                    <div class="items2">
+                        <h1><a href="https://thiagowalek.github.io/projeto-social/">Projeto Redes Sociais</a></h1>
+                        <img src="imgs/social_t.JPG" alt="projeto-redes-sociais">
+                        <iframe src="https://thiagowalek.github.io/projeto-social/" frameborder="0"></iframe>
+                        <p>Um projeto das minhas redes sociais, para testar a adaptabilidade de um site em uma dinâmica de celular.</p>
+                    </div>
                 </div>
-                <div class="items2">
-                    <h1><a href="https://thiagowalek.github.io/projeto_lampada/">Projeto lampada 2</a></h1>
-                    <img src="imgs/projeto_lampada2_t.JPG" alt="projeto-lampada-2">
-                    <iframe src="https://thiagowalek.github.io/projeto_lampada/" frameborder="0"></iframe>
-                    <p>Esse projeto é um teste de inputs diferentes sobre uma lampada.</p>
-                </div>
-                <div class="items2">
-                    <h1>Projeto Cordel</h1>
-                    <img src="#" alt="projeto-cordel">
-                </div>
-                <div class="items2">
-                    <h1><a href="https://thiagowalek.github.io/projeto-android/">Projeto Android</a></h1>
-                    <img src="imgs/android_t.JPG" alt="projeto-android">
-                    <iframe src="https://thiagowalek.github.io/projeto-android/" frameborder="0"></iframe>
-                </div>
-                <div class="items2">
-                    <h1><a href="https://thiagowalek.github.io/projeto-social/">Projeto Redes Sociais</a></h1>
-                    <img src="imgs/social_t.JPG" alt="projeto-redes-sociais">
-                    <iframe src="https://thiagowalek.github.io/projeto-social/" frameborder="0"></iframe>
-                    <p>Um projeto de minhas redes sociais, para testar a adaptabilidade de um site, em uma dinâmica de um celular.</p>
-                </div>
+            </div>
+            <button class="carousel-button next-button" onclick="scrollCarousel(1)">&#10095;</button>
         </section>
         <section id="contato">
             <a href="#">WhatsApp</a>
         </section>
-    <footer>
-        <span>
-            <p>
-                © Thiago Ribeiro Walek, 2024 - Todos os direitos reservados
-            </p>
-        </span>
-    </footer>
-    <script src="javascript.js"></script>
+        <footer>
+            <span>
+                <p>© Thiago Ribeiro Walek, 2024 - Todos os direitos reservados</p>
+            </span>
+        </footer>
     </main>
+    <script src="javascript.js"></script>
+    <script>
+        let currentIndex = 0;
+
+        function scrollCarousel(direction) {
+            const items = document.querySelectorAll('.items2');
+            const totalItems = items.length;
+
+            currentIndex = (currentIndex + direction + totalItems) % totalItems;
+
+            document.querySelector('.iframe-carousel').style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+    </script>
 </body>
 </html>
